@@ -1,0 +1,84 @@
+               body {
+                   background: url(scott.jpg);
+                   background-repeat: no-repeat;
+                   background-attachment: fixed;
+                   background-size: cover;
+                   color: black;
+               }
+               
+               .employee-form {
+                   border-style: solid;
+                   padding: 10px;
+                   margin: auto;
+                   width: 50%;
+                   color: black;
+               }
+               
+               .employee-table {
+                   border-style: solid;
+                   padding: 10px;
+                   margin: auto;
+                   width: 50%;
+               }
+               
+               body>table {
+                   width: 80%;
+               }
+               
+               table {
+                   border-collapse: collapse;
+               }
+               
+               table.list {
+                   width: 100%;
+                   color: black;
+               }
+               
+               td,
+               th {
+                   border: 1px solid #dddd;
+                   text-align: left;
+                   padding: 8px;
+               }
+               
+               tr:nth-child(even),
+               table.list thread>tr {
+                   background-color: #dddd;
+               }
+               
+               input[type="text"],
+               [type=email],
+               input[type="number"] {
+                   width: 100%;
+                   padding: 8px 20px;
+                   margin: 8px 0;
+                   display: inline-block;
+                   border: 1px solid#ccc;
+                   box-sizing: border-box;
+               }
+               
+               input[type=submit] {
+                   width: 30%;
+                   background-color: black;
+                   color: white;
+                   padding: 10px 18px;
+                   border: none;
+                   border-radius: 5px;
+                   cursor: pointer;
+               }
+               
+               form div.form-action-buttons {
+                   text-align: right;
+               }
+               
+               a {
+                   cursor: pointer;
+                   text-decoration: underline;
+                   color: #0000ee;
+                   margin-right: 4px;
+               }
+               
+               label.validation-error {
+                   color: red;
+                   margin-left: 5px;
+               }
